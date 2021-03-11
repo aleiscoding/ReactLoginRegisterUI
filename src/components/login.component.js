@@ -5,28 +5,26 @@ export default class Login extends Component {
         return (
             <form>
 
-                <h3>Log in</h3>
-
                 <div className="form-group">
-                    <label>Email</label>
-                    <input type="email" className="form-control" placeholder="Enter email" />
+                    <label><b>Correo</b></label>
+                    <input type="email" className="form-control" required />
                 </div>
 
                 <div className="form-group">
-                    <label>Password</label>
-                    <input type="password" className="form-control" placeholder="Enter password" />
+                    <label><b>Contraseña</b></label>
+                    <input type="password" className="form-control" required />
                 </div>
 
                 <div className="form-group">
                     <div className="custom-control custom-checkbox">
-                        <input type="checkbox" className="custom-control-input" id="customCheck1" />
-                        <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
+                        <input type="checkbox" className="custom-control-input" id="customCheck1" required />
+                        <label className="custom-control-label" htmlFor="customCheck1">Recuerdame</label>
                     </div>
                 </div>
 
-                <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button>
+                <button type="submit" className="btn btn-custom btn-lg btn-block"><b>Ingresar</b></button>
                 <p className="forgot-password text-right">
-                    Forgot <a href="#">password?</a>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
                 </p>
             </form>
         );

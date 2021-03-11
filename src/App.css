@@ -20,3 +20,48 @@
 .App-link {
   color: #09d3ac;
 }
+
+.btn-custom {
+  color: #ffffff;
+  background: #F7ADA4;
+}
+
+.inner {
+  background: #FDEDC6;
+}
+
+.logoAGP {
+  display: block;
+  margin-top: 100px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot {
+  background: #D1F1F3;
+}
+
+.mapita {
+  width: 100%;
+}
+
+.ubi, .tel {
+  width: 30%;
+  margin-top: 10%;
+  margin-bottom: 10px;
+}
+
+.hora {
+  width: 19%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+.text {
+  font-size: large;
+}
+
+.row {
+  margin-bottom: 10px;
+}
